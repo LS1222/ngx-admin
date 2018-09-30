@@ -56,6 +56,21 @@ export const MENU_ITEMS: NbMenuItem[] = [
     ],
   },
   {
+    title: 'RAMA',
+    icon: 'nb-drops',
+    link: '/pages/rama',
+    children: [
+      {
+        title: 'Dashboard',
+        link: '/pages/rama/rama-dashboard',
+      },
+      {
+        title: 'Ramonaut Schedule',
+        link: '/pages/rama/rama-schedule',
+      },
+    ],
+  },
+  {
     title: 'Forms',
     icon: 'nb-compose',
     children: [

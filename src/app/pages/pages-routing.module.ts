@@ -19,6 +19,9 @@ const routes: Routes = [{
     path: 'ui-features',
     loadChildren: './ui-features/ui-features.module#UiFeaturesModule',
   }, {
+    path: 'rama',
+    loadChildren: './rama/rama.module#RamaModule',
+  }, {
     path: 'components',
     loadChildren: './components/components.module#ComponentsModule',
   }, {
