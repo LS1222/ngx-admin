@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { RamaDashboardComponent } from './rama-dashboard/rama-dashboard.component';
+import { RamaScheduleComponent } from './rama-schedule/rama-schedule.component';
 import { ECommerceComponent } from './e-commerce/e-commerce.component';
 import { NotFoundComponent } from './miscellaneous/not-found/not-found.component';
 
@@ -19,8 +21,11 @@ const routes: Routes = [{
     path: 'ui-features',
     loadChildren: './ui-features/ui-features.module#UiFeaturesModule',
   }, {
-    path: 'rama',
-    loadChildren: './rama/rama.module#RamaModule',
+    path: 'rama-dashboard',
+    component: RamaDashboardComponent,
+  }, {
+    path: 'rama-schedule',
+    component: RamaScheduleComponent,
   }, {
     path: 'components',
     loadChildren: './components/components.module#ComponentsModule',

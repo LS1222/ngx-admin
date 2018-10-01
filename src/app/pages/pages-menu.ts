@@ -58,15 +58,14 @@ export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: 'RAMA',
     icon: 'nb-drops',
-    link: '/pages/rama',
     children: [
       {
         title: 'Dashboard',
-        link: '/pages/rama/rama-dashboard',
+        link: '/pages/rama-dashboard',
       },
       {
         title: 'Ramonaut Schedule',
-        link: '/pages/rama/rama-schedule',
+        link: '/pages/rama-schedule',
       },
     ],
   },
